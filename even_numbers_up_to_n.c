@@ -4,10 +4,10 @@ int main()
 {
     int count, counter;
 
-    printf("Up to which number you want to print odd numbers? ");
+    printf("Up to which number you want to print even numbers? ");
     scanf("%i", &count);
-    counter = 1;
-    printf("The odd numbers up to %i are %i", count, counter);
+    counter = 0;
+    printf("The even numbers up to %i are %i", count, counter);
     counter = counter + 2;
     while (counter <= count)
     {

@@ -4,12 +4,12 @@ int main()
 {
     int count, counter;
 
-    printf("Up to which number you want to print odd numbers? ");
+    printf("How many odd numbers you want to print? ");
     scanf("%i", &count);
     counter = 1;
-    printf("The odd numbers up to %i are %i", count, counter);
+    printf("The first %i odd numbers are %i", count, counter);
     counter = counter + 2;
-    while (counter <= count)
+    while (counter < count * 2)
     {
         printf(", %i", counter);
         counter = counter + 2;
