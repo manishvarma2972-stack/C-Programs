@@ -1,0 +1,18 @@
+# Compiled Binaries & Object Code
+*.out
+*.o
+*.obj
+*.exe
+*.so
+*.dylib
+*.a
+
+# Debugging Artifacts
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
